@@ -1,7 +1,16 @@
 aid: aclarity-water
 name: Aclarity Water
-description: Aclarity Water is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Aclarity, Inc. (Aclarity Water) is a Medway, Massachusetts cleantech company
+  that designs and manufactures on-site PFAS destruction technology. Its flagship
+  Aclarity Octa system uses electrochemical oxidation to break the carbon-fluorine
+  bond in per- and polyfluoroalkyl substances (PFAS), destroying these "forever
+  chemicals" at landfills, centralized waste-treatment facilities, industrial
+  sites (laundry, pulp and paper, automotive), municipal and industrial
+  wastewater, drinking-water treatment, and AFFF-contaminated aviation sites.
+  Aclarity is a portfolio company of DCVC. It is a physical water-treatment
+  hardware and services business with no public developer API surface; this
+  profile is maintained in the API Evangelist network for company intelligence.
 url: https://raw.githubusercontent.com/api-evangelist/aclarity-water/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,49 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.aclaritywater.com/wp-content/uploads/aclarity-logo.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Water
+- PFAS
+- Environmental
+- Cleantech
+- Water Treatment
+- Sustainability
+- Hardware
 apis: []
+common:
+- type: DomainSecurity
+  url: security/aclarity-water-domain-security.yml
+- type: Website
+  url: https://www.aclaritywater.com
+- type: Blog
+  url: https://www.aclaritywater.com/blog/
+- type: Support
+  url: https://www.aclaritywater.com/contact-us/
+- type: PrivacyPolicy
+  url: https://www.aclaritywater.com/privacy/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
