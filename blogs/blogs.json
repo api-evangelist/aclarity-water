@@ -2,7 +2,7 @@
   "repo": "aclarity-water",
   "feeds": [
     {
-      "source": "https://www.aclaritywater.com",
+      "source": "https://www.aclaritywater.com/blog/",
       "feed_url": "https://www.aclaritywater.com/blog/feed/",
       "title": "",
       "saved": 0,
@@ -24,5 +24,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
